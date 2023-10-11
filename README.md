@@ -18,4 +18,13 @@ g++ -std=c++17 main.cpp -o main.o
 ./main.o
 ```
 
-Thanks for reading!
+## Time and Space Efficiency
+
+The time-space complexity of my solution is as follows (I *think*):
+
+Time Complexity: O(n), O(n*m) worst-case scenario, where n is the length of the input string and m is the average character frequency of each pair.
+Space Comlexity: O(1); the auxiliary space used by the function is constant and independent from the size of the input string.
+
+I will make updates if there are ways to optimize my solution.
+
+## Thanks for reading!
